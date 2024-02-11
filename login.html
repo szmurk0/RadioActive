@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Created by Tivotal -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/RadioActive_iconW.png">
+    <title>Login RadioActive</title>
+
+    <!-- Font Awesome (for icons) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="stylesLogin.css" />
+  </head>
+
+  <body style='background-image: linear-gradient(to bottom right, rgb(0, 106, 255), burlywood);'>
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    
+    <div class="wrapper">
+      <form action="login.php" method="post">
+        <h1> Logowanie </h1>
+        <div class="input-box">
+          <br>
+          <i class="fas fa-envelope icon"></i>
+          <input type="text" name="identyfikatorDostepu" required />
+          <label>Identyfikator Dostępu</label>
+        </div>
+        <div class="input-box">
+          <i class="fas fa-lock icon"></i>
+          <input type="password" name="haslo" required />
+          <label>Hasło</label>
+        </div>
+
+        <!--<div class="row">
+          <label><input type="checkbox" />Zapamiętaj hasło</label>
+        </div>-->
+        <br>
+        <button type="submit" class="btn"> Zaloguj </button>
+      </form>
+    </div>
+  </body>
+</html>

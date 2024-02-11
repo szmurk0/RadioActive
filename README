@@ -1,0 +1,10 @@
+Jaki edytować baze i co edytować?
+
+Edytujemy tylko tabele łączące tj:
+    - user_paneldata_access (wybieramy id użytkownika(jest ono bardzo uniwersalne), drugą liczbę jako id panelu)
+    - user_task_access (bierzemy id użytkownika na początku)(uniwersalne id), później id task do nadania użytkownikowi z tabeli 'tasksra')
+    - file_user_access (odwołujemy się do id pliku do udostępnienia, drugi argument to id użytkownika)
+
+    - insert do user_paneldata_access: INSERT INTO user_paneldata_access(user_id, paneldata_id) VALUES(1, 2) //Dajemy użytkownikowi o id=2 plik panelu o id=1
+    - insert do user_task_access: INSERT INTO user_task_access(user_id, task_id) VALUES(2, 1) //Dajemy użytkownikowi o id=2 plik panelu o id=1
+    - insert do file_user_access: INSERT INTO file_user_access(file_id, user_id) VALUES(1, 2) // Dajemy użytkownikowi o id=2 plik o id=1

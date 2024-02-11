@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.menu {
+	height: 80%; padding: 10px;
+}
+
+/* Dodaj animację do przycisków */
+.btn-animate {
+	transition: transform 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+	transform: scale(1.1);
+}
+
+/* Zmien kolor przycisku na zielony */
+.btn-success {
+	background-color: #132517;
+	border-color: #132517;
+}
+
+.btn-success:hover {
+	background-color: #0a0c0a;
+	border-color: #0a0c0a;
+}
+
+.menubutton {
+	margin: 20px; padding: 10px; 
+	border: 0px; cursor: pointer; float: left;
+	color: white; font-size: 15px;
+	background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+
+header {background-color: black; height: 100px; margin: 0px; box-shadow: 0px 3px 10px black;}
+
+header p {
+    color: black;
+}
+
+body {
+    color: white;
+    margin: auto;
+    font-family: 'Source Code Pro', monospace;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+
+
+main {margin: 0px; padding: 2%; height: 50%;}
+
+p { margin: 0px; color: black; }
+
+/*Heading*/
+.logo {
+	width: 200px; margin: 10px; float: left;
+}
+.menu {
+	height: 80%; padding: 10px;
+}
+.menubutton {
+	margin: 20px; padding: 10px; 
+	border: 0px; cursor: pointer; float: left;
+	color: white; font-size: 15px;
+	background-color: black;
+}
+
+/* Main */
+.widget {
+	margin: 2%; padding: 20px;
+	background-color: white; border-radius: 25px;
+}
+.widget1 {
+	width: 80%; float: left;
+}
+.widget2 {
+	width: 40%; float: left;
+}
+.widget2a {
+	width: 25%; float: left;
+}
+.widget2b {
+	width: 55%; float: left;
+}
+.widget8 /* widget wyśrodkowany, nie na 100% szerokości */ {
+	width: 50%; float: left;
+}
+.heading {
+	font-size: 24px; font-weight: bold;
+	margin-top: 5px; margin-bottom: 15px;
+	color: #8c52ff; border-bottom: 1px solid #8c52ff;
+}
+.order_table {
+	width: 100%;
+	border-collapse: collapse;
+} td {padding-top: 10px; padding-bottom: 10px;}
+
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(1);
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.menu {
+	height: 80%; padding: 10px;
+}
+ 
+ /* Dodaj animację do przycisków */
+ .btn-animate {
+	transition: transform 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+	transform: scale(1.1);
+}
+
+/* Zmien kolor przycisku na zielony */
+.btn-success {
+	background-color: #132517;
+	border-color: #132517;
+}
+
+.btn-success:hover {
+	background-color: #0a0c0a;
+	border-color: #0a0c0a;
+}
+
+
+header {
+	background-color: black; 
+	height: 100px; 
+	margin: 0px; 
+	box-shadow: 0px 3px 10px black;
+}
+
+
+
+
+body {
+    color: white;
+    margin: auto;
+    font-family: 'Source Code Pro', monospace;
+    overflow: auto;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+} 
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 1000% 1000% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 12em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+    25% {
+        transform: translateX(-25%);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    75% {
+        transform: translateX(-25%);
+    }
+    100% {
+        transform: translateX(1);
+    }
+}
+
+h3,h2,h1 {
+    color: #8c52ff;
+}
+	
+main {
+	margin: 0px; 
+	padding: 2%; 
+	height: 50%;
+}
+
+
+
+
+p { color: black;
+    margin: 0px; }
+
+/*Heading*/
+.logo {
+	width: 200px; margin: 10px; float: left;
+}
+.menu {
+	height: 80%; padding: 10px;
+}
+.menubutton {
+	margin: 20px; padding: 10px; 
+	border: 0px; cursor: pointer; float: left;
+	color: white; font-size: 15px;
+	background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+
+.widget-upload {
+    width: 100%;
+    float: left;
+    margin-right: 0;
+    clear: both; /* Dodaj tę linię, aby zapewnić, że widget nie będzie nakładać się na inne elementy z lewej strony */
+}
+/* Dodaj animację do przycisków */
+.btn-animate {
+	transition: transform 0.3s ease-in-out;
+}
+
+.btn-animate:hover {
+	transform: scale(1.1);
+}
+
+/* Zmien kolor przycisku na zielony */
+.btn-success {
+	background-color: #000000;
+	border-color: #132517;
+}
+
+.btn-success:hover {
+	background-color: #0a0c0a;
+	border-color: #0a0c0a;
+}
+
+/* Dodaj przeźroczystość do widgetów */
+.widget {
+	margin: 2%; padding: 20px;
+	background-color: rgba(255, 255, 255, 0.6); /* Przeźroczystość tutaj, zmień wartość alfa według preferencji */
+	border-radius: 25px;
+}
+
+/* Reszta kodu CSS pozostaje bez zmian */
+.widget1 {
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+.widget2 {
+    width: 38%;
+    float: left;
+}
+
+.widget2 img {
+    border-radius: 15px;
+    float: center;
+}
+
+.mini-studio {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.mini-studio h3 {
+    color: #8c52ff;
+}
+
+.widget2b {
+	width: 51%; float: left; margin-top: -17px;
+}
+.widget2c {
+	width: 55%; float: left;
+}
+.widget8 /* widget wyśrodkowany, nie na 100% szerokości */ {
+	width: 50%; float: left;
+}
+.heading {
+	font-size: 24px; font-weight: bold;
+	margin-top: 5px; margin-bottom: 15px;
+	color: #8c52ff; border-bottom: 1px solid #8c52ff;
+}
+
+.heading p{
+    color: black;
+}
+
+.order_table {
+	width: 100%;
+	border-collapse: collapse;
+} td {padding-top: 10px; padding-bottom: 10px;}
+
+
+.custom-checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-checkbox-label {
+    margin-left: 25px; /* Możesz dostosować tę wartość do odpowiedniego przesunięcia w prawo */
+}
